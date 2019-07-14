@@ -126,7 +126,7 @@ export class RegisterPageComponent implements OnInit, OnDestroy {
 </form>
 ```
 
-4. Create passportless route /register in server. Edit file /controllers/auth.js
+4. Create passportless route /register in server. Edit file /routes/auth.js
 ```
 ...
 //router.post('/register', passport.authenticate('jwt', {session: false}), controller.register)
